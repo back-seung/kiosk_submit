@@ -1,0 +1,1 @@
+package preppers.weeks2.kiosk.orderimport preppers.weeks2.kiosk.product.Productclass Order(val product: Product) {    val idx: Int = getNextIdx()    companion object {        private var nextIndex = 1            fun getNextIdx() = nextIndex++    }}

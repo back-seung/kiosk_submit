@@ -1,0 +1,1 @@
+package preppers.weeks2.kiosk.userclass User(val name: String, var money: Int = 100_000) {}
